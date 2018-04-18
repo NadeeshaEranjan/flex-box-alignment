@@ -1,0 +1,31 @@
+.full-width{
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.wd-33{
+	width: 33.333%;
+	float: left;
+	position: relative;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.wd-33 .inner{
+	background-color: #ccc;
+	padding: 10px;
+}
+
+.wd-33 .inner h3{
+	margin: 0px;
+}
